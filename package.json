@@ -1,0 +1,37 @@
+{
+  "name": "bgnts",
+  "version": "0.1.0",
+  "description": "A quickie library for dealing with big integers.",
+  "main": "index.js",
+  "keywords": [],
+  "private": true,
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "John Shearer <john@ultranaut.com> (http://ultranaut.com)",
+  "license": "MIT",
+  "homepage": "",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "babel": "^5.6.1",
+    "chai": "^3.0.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
